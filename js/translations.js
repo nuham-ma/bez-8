@@ -16,7 +16,7 @@ export const translations = {
     // Hero Section
     hero_badge: "ኮልፌ ልኳንዳ • አዲስ አበባ",
     hero_title: "ትኩስ ምግቦች፣ ልዩ መጠጦችና ሞቅ ያለ መስተንግዶ በኮልፌ ልኳንዳ",
-    hero_description: "ከኅዳር 2016 ዓ.ም. ጀምሮ በኮልፌ ልኳንዳ ጥራት ያላቸው ትኩስ ምግቦችን፣ ልዩ ቀዝቃዛና ትኩስ መጠጦችን በታማኝ መስተንግዶ እናቀርባለን።",
+    hero_description: "በኮልፌ ልኳንዳ ጥራት ያላቸው ትኩስ ምግቦችን፣ ልዩ ቀዝቃዛና ትኩስ መጠጦችን በታማኝ መስተንግዶ እናቀርባለን።",
     hero_cta_order: "በዋትስአፕ ይዘዙ",
     hero_cta_call: "በቀጥታ ይደውሉ",
     hero_cta_directions: "አድራሻና ካርታ",
@@ -107,7 +107,7 @@ export const translations = {
     // Hero Section
     hero_badge: "Kolfe Likuanda • Addis Ababa",
     hero_title: "Fresh Food, Signature Drinks & Warm Hospitality in Kolfe Likuanda",
-    hero_description: "Serving fresh made-to-order dishes, chilled specialty drinks, and authentic Ethiopian coffee in Kolfe Likuanda since November 2023.",
+    hero_description: "Serving fresh made-to-order dishes, chilled specialty drinks, and authentic Ethiopian coffee in Kolfe Likuanda.",
     hero_cta_order: "Order on WhatsApp",
     hero_cta_call: "Call Directly",
     hero_cta_directions: "Directions & Map",
