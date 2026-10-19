@@ -13,5 +13,11 @@
   },
   "keywords": [],
   "author": "Possible Technology P.L.C.",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  }
 }
