@@ -1304,6 +1304,128 @@ button {
 }
 
 /* ==========================================================================
+   Floating Action Buttons & Back to Top
+   ========================================================================== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.floating-actions-container {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.25rem;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.floating-btn {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.floating-btn:hover {
+  transform: translateY(-3px) scale(1.02);
+}
+
+.btn-top {
+  width: 42px;
+  height: 42px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+}
+
+.btn-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.btn-top:hover {
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+
+.btn-wa-float {
+  background-color: #25D366;
+  color: #FFFFFF;
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-wa-float:hover {
+  background-color: #20BA56;
+  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.5);
+}
+
+.wa-float-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: var(--radius-full);
+  background-color: rgba(37, 211, 102, 0.4);
+  animation: wa-pulse 2.5s infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@keyframes wa-pulse {
+  0% { transform: translate(-50%, -50%) scale(0.95); opacity: 0.8; }
+  70% { transform: translate(-50%, -50%) scale(1.35); opacity: 0; }
+  100% { transform: translate(-50%, -50%) scale(1.35); opacity: 0; }
+}
+
+.btn-wa-float svg, .btn-wa-float span {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 480px) {
+  .floating-wa-label {
+    display: none;
+  }
+  .btn-wa-float {
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .btn-wa-float svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+/* ==========================================================================
    Responsive Breakpoints
    ========================================================================== */
 

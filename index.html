@@ -30,6 +30,41 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" href="assets/images/logo/bez8-logo.png">
   <link rel="apple-touch-icon" href="assets/images/logo/bez8-logo.png">
+
+  <!-- Schema.org JSON-LD Structured Data for Local Restaurant / Cafe -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "BEZ/8 Cafe",
+    "alternateName": "BEZ/8 Juice & Fast Food",
+    "image": "assets/images/logo/bez8-logo.png",
+    "telephone": "+251978454772",
+    "email": "Kalabhabt63@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kolfe Likwanda, 100m past Basha Grocery",
+      "addressLocality": "Addis Ababa",
+      "addressCountry": "ET"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 9.0275,
+      "longitude": 38.7055
+    },
+    "hasMap": "https://maps.app.goo.gl/cjoJ9WFy1uAxq9DQ8",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "07:00",
+        "closes": "21:30"
+      }
+    ],
+    "servesCuisine": ["Fast Food", "Pizza", "Burgers", "Noodles", "Ethiopian Coffee", "Juice"],
+    "priceRange": "$$"
+  }
+  </script>
 </head>
 <body>
 
@@ -698,6 +733,19 @@
       </div>
     </div>
   </footer>
+
+  <!-- Floating Action Buttons: WhatsApp Quick Order & Back to Top -->
+  <div class="floating-actions-container" id="floating-actions">
+    <button type="button" id="btn-back-to-top" class="floating-btn btn-top" aria-label="Back to Top">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+      <span class="sr-only" data-i18n="back_to_top">ወደ ላይ</span>
+    </button>
+    <a href="https://wa.me/251978454772" class="floating-btn btn-wa-float btn-whatsapp-general" aria-label="Order on WhatsApp">
+      <span class="wa-float-pulse"></span>
+      <svg class="icon" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.83 14.12c-.24.69-1.42 1.31-1.97 1.37-.51.06-1.17.09-3.79-.98-3.35-1.37-5.5-4.81-5.67-5.03-.17-.23-1.36-1.81-1.36-3.46 0-1.64.86-2.45 1.17-2.78.3-.33.67-.42.89-.42.22 0 .45.01.64.01.21 0 .49-.08.76.57.28.69.96 2.34 1.05 2.51.09.17.15.37.03.6-.12.23-.18.37-.36.57-.18.2-.38.45-.54.6-.18.17-.37.36-.16.71.21.36.93 1.54 2 2.49 1.37 1.22 2.53 1.6 2.89 1.78.36.17.57.15.78-.1.21-.24.89-1.04 1.13-1.4.24-.36.48-.3.8-.18.33.12 2.08.98 2.44 1.16.36.18.6.27.69.42.09.15.09.87-.15 1.56z"/></svg>
+      <span class="floating-wa-label" data-i18n="floating_order_wa">በዋትስአፕ ይዘዙ</span>
+    </a>
+  </div>
 
   <script type="module" src="js/app.js"></script>
 </body>

@@ -105,7 +105,9 @@ export const translations = {
 
     // WhatsApp Default Pre-fills
     wa_order_prefix: "ሰላም ቤዝ/8 ካፌ! የሚከተለውን ማዘዝ ፈልጌ ነበር፦ ",
-    wa_general_inquiry: "ሰላም ቤዝ/8 ካፌ! ስለ ምግቦቻችሁና አገልግሎታችሁ ማወቅ ፈልጌ ነበር።",
+    // Floating & Navigation Actions
+    floating_order_wa: "በዋትስአፕ ይዘዙ",
+    back_to_top: "ወደ ላይ",
 
     // Footer
     footer_desc: "ትኩስ ምግቦች፣ ልዩ መጠጦችና ሞቅ ያለ መስተንግዶ በኮልፌ ሊኳንዳ፣ አዲስ አበባ።",
@@ -222,6 +224,10 @@ export const translations = {
     // WhatsApp Default Pre-fills
     wa_order_prefix: "Hello BEZ/8 Cafe! I would like to order: ",
     wa_general_inquiry: "Hello BEZ/8 Cafe! I would like to inquire about your menu and services.",
+
+    // Floating & Navigation Actions
+    floating_order_wa: "Order on WhatsApp",
+    back_to_top: "Top",
 
     // Footer
     footer_desc: "Artisanal fast food, unique chilled beverages, and warm hospitality in Kolfe Likwanda, Addis Ababa.",

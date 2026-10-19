@@ -245,6 +245,20 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements.forEach(el => el.classList.add('visible'));
   }
 
+  // 9. Back to Top Button Handler
+  const backToTopBtn = document.getElementById('btn-back-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 350) {
+      backToTopBtn?.classList.add('visible');
+    } else {
+      backToTopBtn?.classList.remove('visible');
+    }
+  }, { passive: true });
+
+  backToTopBtn?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
   // Initialize
   setLanguage(currentLang);
   updateLiveStatus();
