@@ -104,58 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // 4. Menu Filter Tabs
-  const menuTabs = document.querySelectorAll('.menu-tab-btn');
-  const menuCards = document.querySelectorAll('.menu-card');
-
-  menuTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      menuTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      const filter = tab.getAttribute('data-filter');
-
-      menuCards.forEach(card => {
-        const category = card.getAttribute('data-category');
-        const isPopular = card.getAttribute('data-popular') === 'true';
-
-        let show = false;
-        if (filter === 'all') {
-          show = true;
-        } else if (filter === 'popular') {
-          show = isPopular;
-        } else if (filter === category) {
-          show = true;
-        }
-
-        if (show) {
-          card.style.display = 'flex';
-          setTimeout(() => {
-            card.style.opacity = '1';
-            card.style.transform = 'translateY(0)';
-          }, 20);
-        } else {
-          card.style.opacity = '0';
-          card.style.transform = 'translateY(10px)';
-          setTimeout(() => {
-            card.style.display = 'none';
-          }, 200);
-        }
-      });
-    });
-  });
-
-  // 5. WhatsApp Link Dynamic Pre-fill Generator
+  // 4. WhatsApp Link Dynamic Pre-fill Generator
   function updateWhatsAppLinks() {
-    const orderButtons = document.querySelectorAll('.btn-order-item');
-    orderButtons.forEach(btn => {
-      const itemTitleKey = btn.getAttribute('data-item-title-key');
-      const itemTitle = translations[currentLang][itemTitleKey] || 'BEZ/8 Special Dish';
-      const prefix = translations[currentLang].wa_order_prefix;
-      const message = encodeURIComponent(`${prefix}${itemTitle}`);
-      btn.setAttribute('href', `https://wa.me/251978454772?text=${message}`);
-    });
-
     const generalWaBtn = document.querySelectorAll('.btn-whatsapp-general');
     generalWaBtn.forEach(btn => {
       const message = encodeURIComponent(translations[currentLang].wa_general_inquiry);
@@ -163,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 6. Interactive Lightbox for Gallery
+  // 5. Interactive Lightbox for Gallery
   const lightbox = document.getElementById('gallery-lightbox');
   const lightboxImg = document.getElementById('lightbox-image');
   const lightboxCaption = document.getElementById('lightbox-caption');
@@ -203,13 +153,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closeLightbox();
   });
 
-  // 7. Copy Address to Clipboard
+  // 6. Copy Address to Clipboard
   const copyAddressBtn = document.getElementById('btn-copy-address');
   if (copyAddressBtn) {
     copyAddressBtn.addEventListener('click', async () => {
       const addressText = currentLang === 'am'
-        ? "ኮልፌ ሊኳንዳ፤ ከባሻ ግሮሰሪ 100 ሜትር ገባ ብሎ፣ አዲስ አበባ"
-        : "Kolfe Likwanda, 100m past Basha Grocery, Addis Ababa, Ethiopia";
+        ? "ኮልፌ ልኳንዳ፤ ከባሻ ግሮሰሪ 100 ሜትር ገባ ብሎ፣ አዲስ አበባ"
+        : "Kolfe Likuanda, 100m past Basha Grocery, Addis Ababa, Ethiopia";
 
       try {
         await navigator.clipboard.writeText(addressText);
@@ -228,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 8. Scroll Reveal Observer
+  // 7. Scroll Reveal Observer
   const revealElements = document.querySelectorAll('.reveal-fade');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {

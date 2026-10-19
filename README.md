@@ -1,6 +1,6 @@
 # ☕ BEZ/8 Cafe & Fast Food — Verified Landing Page
 
-A modern, responsive, and high-converting speculative landing page for **BEZ/8 Cafe** (ቤዝ/8 ካፌና ፋስት ፉድ), located in Kolfe Likwanda, Addis Ababa, Ethiopia.
+A modern, responsive, and high-converting speculative landing page for **BEZ/8 Cafe** (ቤዝ/8 ካፌና ፋስት ፉድ), located in Kolfe Likuanda, Addis Ababa, Ethiopia.
 
 Built with authentic photography extracted from the owner's collages, bilingual Amharic + English support, live operating hours status, WhatsApp one-tap ordering, and zero fabricated data following the **Possible Technology P.L.C.** internship guidelines.
 
@@ -12,7 +12,7 @@ Built with authentic photography extracted from the owner's collages, bilingual 
 | :--- | :--- |
 | **Official Name** | **BEZ/8 Cafe** (*ቤዝ/8 ካፌና ፋስት ፉድ*) |
 | **Established Date** | **November 23, 2023** (*ኅዳር 13፣ 2016 ዓ.ም.*) |
-| **Physical Address** | **Kolfe Likwanda, 100m past Basha Grocery**, Addis Ababa, Ethiopia (*ኮልፌ ሊኳንዳ፤ ከባሻ ግሮሰሪ 100 ሜትር ገባ ብሎ*) |
+| **Physical Address** | **Kolfe Likuanda, 100m past Basha Grocery**, Addis Ababa, Ethiopia (*ኮልፌ ልኳንዳ፤ ከባሻ ግሮሰሪ 100 ሜትር ገባ ብሎ*) |
 | **Google Maps** | [BEZ/8 on Google Maps](https://maps.app.goo.gl/cjoJ9WFy1uAxq9DQ8) (Plus Code: `2PM4+GMJ Addis Ababa`) |
 | **Operating Hours** | **Daily: 7:00 AM – 9:30 PM EAT** (*በየቀኑ ከጠዋቱ 1:00 ሰዓት እስከ ምሽቱ 3:30*) |
 | **Phone Hotline** | `+251 978 454 772` / `0978454772` |

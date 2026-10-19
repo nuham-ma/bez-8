@@ -2,7 +2,7 @@
 **Prepared by**: Possible Technology P.L.C.  
 **Project**: Speculative Landing Page Demo  
 **Entity**: BEZ/8 Cafe (ቤዝ/8 ካፌና ፋስት ፉድ)  
-**Location**: Kolfe Likwanda, near Basha Grocery (100m inside), Addis Ababa, Ethiopia  
+**Location**: Kolfe Likuanda, near Basha Grocery (100m inside), Addis Ababa, Ethiopia  
 **Google Maps**: [BEZ/8 on Google Maps (Plus Code: 2PM4+GMJ Addis Ababa)](https://maps.app.goo.gl/cjoJ9WFy1uAxq9DQ8)  
 **Date**: October 2026 / ኅዳር 2016 ዓ.ም.  
 
@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary & Brand Overview
 
-**BEZ/8 Cafe** is a vibrant, modern fast food, specialty juice, and cafe destination located in the Kolfe Likwanda district of Addis Ababa. Opened on **November 23, 2023** (*ኅዳር 13፣ 2016 ዓ.ም.*), BEZ/8 has become a beloved neighborhood culinary anchor known for its warm Ethiopian hospitality, energetic contemporary interior aesthetics, and commitment to serving 100% fresh, made-to-order food and refreshing beverages.
+**BEZ/8 Cafe** is a vibrant, modern fast food, specialty juice, and cafe destination located in the Kolfe Likuanda district of Addis Ababa. Opened on **November 23, 2023** (*ኅዳር 13፣ 2016 ዓ.ም.*), BEZ/8 has become a beloved neighborhood culinary anchor known for its warm Ethiopian hospitality, energetic contemporary interior aesthetics, and commitment to serving 100% fresh, made-to-order food and refreshing beverages.
 
 The physical space is immediately recognizable by its signature yellow honeycomb wall designs, lush green indoor moss/grass feature wall crowned with the neon **"BEZ/8 JUICE & FAST FOOD"** emblem, colorful pop-art murals, and dedicated artisanal espresso bar.
 
@@ -48,8 +48,8 @@ The physical space is immediately recognizable by its signature yellow honeycomb
 - **Telephone Hotline**: `+251 978 454 772` / `0978454772`
 - **WhatsApp Ordering**: `+251 978 454 772`
 - **Email Contact**: `Kalabhabt63@gmail.com`
-- **Address**: Kolfe Likwanda, 100 meters inside past Basha Grocery, Addis Ababa, Ethiopia  
-  *(ኮልፌ ሊኳንዳ፤ ከባሻ ግሮሰሪ 100 ሜትር ገባ ብሎ)*
+- **Address**: Kolfe Likuanda, 100 meters inside past Basha Grocery, Addis Ababa, Ethiopia  
+  *(ኮልፌ ልኳንዳ፤ ከባሻ ግሮሰሪ 100 ሜትር ገባ ብሎ)*
 - **Coordinates / Map Shortlink**: `https://maps.app.goo.gl/cjoJ9WFy1uAxq9DQ8` (Plus Code: `2PM4+GMJ Addis Ababa`)
 - **Operating Hours**:
   - English: Monday – Sunday: 7:00 AM – 9:30 PM EAT

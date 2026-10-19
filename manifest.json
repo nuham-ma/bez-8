@@ -1,7 +1,7 @@
 {
   "name": "BEZ/8 Cafe & Fast Food",
   "short_name": "BEZ/8 Cafe",
-  "description": "Handcrafted pizzas, burgers, noodles, signature Mojito Milk, and specialty Ethiopian coffee in Kolfe Likwanda, Addis Ababa.",
+  "description": "Handcrafted pizzas, burgers, noodles, signature Mojito Milk, and specialty Ethiopian coffee in Kolfe Likuanda, Addis Ababa.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
